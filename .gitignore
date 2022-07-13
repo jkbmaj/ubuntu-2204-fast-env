@@ -1,0 +1,5 @@
+/.installed
+/.last_update
+/.installed_modules
+/bin/*
+!/bin/.gitkeep
