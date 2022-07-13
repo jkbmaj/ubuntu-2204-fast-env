@@ -1,4 +1,4 @@
-# Ubuntu 22.04 LTS fast environment installer
+# Ubuntu 22.04 LTS fast environment installer [WORK IN PROGRESS!]
 
 Ubuntu script provides a ready-to-use environment.
 
