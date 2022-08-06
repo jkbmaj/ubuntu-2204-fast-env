@@ -82,8 +82,6 @@ if [[ "${INSTALLATION_PROFILE}" == "custom" || "${INSTALLATION_PROFILE}" == "cus
         "nodejs-16" "Node.js 16 LTS" "off" \
         "obs-studio" "OBS Studio" "off" \
         "openvpn-client" "openvpn client" "off" \
-        "php7.4-with-extensions" "PHP 7.4 with extensions" "off" \
-        "php8.0-with-extensions" "PHP 8.0 with extensions" "off" \
         "php8.1-with-extensions" "PHP 8.1 with extensions" "off" \
         "php-set-default" "Set default PHP version" "off" \
         "postgresql" "postgresql" "off" \
