@@ -23,10 +23,6 @@ source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/common.sh"
 if [[ "${INSTALLATION_PROFILE}" == "update" ]]; then
     CHOICES="self-update update"
 
-    if [[ -d "${USER_HOME}/.docker" ]]; then
-        CHOICES="${CHOICES} docker-compose"
-    fi
-
     if which deptrac > /dev/null; then
         CHOICES="${CHOICES} deptrac"
     fi
@@ -56,7 +52,6 @@ if [[ "${INSTALLATION_PROFILE}" == "custom" || "${INSTALLATION_PROFILE}" == "cus
         "deptrac" "Deptrac" "off" \
         "diagnostic-tools" "diagnostic tools" "off" \
         "discord" "Discord" "off" \
-        "docker" "docker" "off" \
         "docker-desktop" "Docker Desktop" "off" \
         "fiezilla" "fiezilla" "off" \
         "firefox" "firefox" "off" \
