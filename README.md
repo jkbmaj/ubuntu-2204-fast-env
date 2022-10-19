@@ -13,10 +13,10 @@ source ~/.bashrc
 
 ### Usage
 ```
-fastenv # Runs the installer with the selection screen
-fastenv update # Runs system update directly
-fastenv mini # Directly runs minimal installation (Updates system, then install Thunderbird, Git, Sublime Text 4 and UFW)
-fastenv custom # Directly runs a custom installation (shows which modules can be installed)
+fastenv # Starts the installer with the selection screen
+fastenv update # Runs apt, snap, composer and other updates directly
+fastenv mini # Updates the system and then installs Thunderbird, Git, Sublime Text 4, and UFW)
+fastenv custom # Displays the screen for selecting modules to be installed
 ```
 
 ## License
