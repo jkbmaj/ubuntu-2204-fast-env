@@ -6,7 +6,7 @@ else
     symfony self-update
 fi
 
-EXPORT_PATH="export PATH=\"\$HOME/.symfony/bin:\$PATH\""
+EXPORT_PATH="export PATH=\"\$HOME/.symfony5/bin:\$PATH\""
 
 for FILE in "${USER_HOME}/.bashrc" "${USER_HOME}/.zshrc"; do
     if ! grep --quiet "${EXPORT_PATH}" "${FILE}"; then
